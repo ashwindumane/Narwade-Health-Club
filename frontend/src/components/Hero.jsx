@@ -15,10 +15,10 @@ const Hero = () => {
             push limits, stay consistent, and achieve your personal best.
           </p>
           <div className="hero-cta">
-            <a href="#pricing" className="btn btn-primary">
+            <a href="pricing" className="btn btn-primary">
               Join Now <FiArrowRight />
             </a>
-            <a href="#workouts" className="btn btn-outline">
+            <a href="workouts" className="btn btn-outline">
               View Training Plans
             </a>
           </div>

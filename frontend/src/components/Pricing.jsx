@@ -25,28 +25,15 @@ const Pricing = () => {
         "2 Group Classes/Month",
         "Basic Diet Consultation",
         "Progress Tracking"
-      ]
-    },
-    {
-      title: "Half Yearly",
-      price: "4,600",
-      duration: "6 Months",
-      features: [
-        "Everything in Premium",
-        "6 Group Classes/Month",
-        "3 Personal Trainer Sessions",
-        "Customized Workout Plan",
-        "5-Day Freeze Option",
-        "Monthly Progress Reports"
       ],
       popular: true
     },
     {
       title: "Yearly",
-      price: "8,100",
+      price: "5999",
       duration: "12 Months",
       features: [
-        "Everything in Half Yearly",
+        "Everything in Premium",
         "Unlimited Group Classes",
         "12 Personal Trainer Sessions",
         "Premium Diet Plan",
@@ -83,7 +70,7 @@ const Pricing = () => {
                   </div>
                 ))}
                 
-                <a href="#contact" className="btn btn-primary pricing-btn">
+                <a href="contact" className="btn btn-primary pricing-btn">
                   Join Now
                 </a>
               </div>

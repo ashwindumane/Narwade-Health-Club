@@ -47,10 +47,9 @@ const BMICalculator = () => {
   return (
     <section className="bmi-calculator" id="bmi">
       <div className="container">
-       <h2 className="section-title" style={{ color: "#007800" }}>Body Mass Index (BMI) Calculator</h2>
-
+        <h2 className="section-title">Body Mass Index (BMI) Calculator</h2>
         
-        <div className="bmi-container">
+        <div className="bmi-grid">
           <form className="bmi-form" onSubmit={calculateBMI}>
             <div className="form-group">
               <label htmlFor="height" className="form-label">Height (cm)</label>
@@ -110,8 +109,13 @@ const BMICalculator = () => {
             )}
           </form>
           
-          <div>
-            <img src="/bmi.jpg" alt="BMI Chart" className="bmi-image" />
+          <div className="bmi-image-container">
+            <img 
+              src="/bmi.jpg" 
+              alt="BMI Chart" 
+              className="bmi-image" 
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -120,4 +124,3 @@ const BMICalculator = () => {
 };
 
 export default BMICalculator;
-//D:\AB Projects\GYM\frontend\src\components\BMICalculator.jsx

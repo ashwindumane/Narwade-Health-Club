@@ -39,42 +39,40 @@ const Contact = () => {
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         
-        <form className="contact-form compact-form" onSubmit={handleSubmit}>
-          <div className="form-row">
-            <div className="form-group compact-group">
-              <label htmlFor="name" className="form-label">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="form-input compact-input"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            
-            <div className="form-group compact-group">
-              <label htmlFor="email" className="form-label">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="form-input compact-input"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </div>
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="name" className="form-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="form-input"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="email" className="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-input"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
           </div>
 
-          <div className="form-group compact-group">
+          <div className="form-group">
             <label htmlFor="phone" className="form-label">Phone Number</label>
             <input
               type="tel"
               id="phone"
               name="phone"
-              className="form-input compact-input"
+              className="form-input"
               value={formData.phone}
               onChange={handleChange}
               required
@@ -83,13 +81,13 @@ const Contact = () => {
             />
           </div>
           
-          <div className="form-group compact-group">
+          <div className="form-group">
             <label htmlFor="message" className="form-label">Message</label>
             <textarea
               id="message"
               name="message"
-              className="form-input compact-textarea"
-              rows="3"
+              className="form-input"
+              rows="5"
               value={formData.message}
               onChange={handleChange}
               required
@@ -98,7 +96,7 @@ const Contact = () => {
           
           <button 
             type="submit" 
-            className="btn btn-primary compact-btn"
+            className="btn btn-primary"
             disabled={isLoading}
           >
             {isLoading ? "Sending..." : (
