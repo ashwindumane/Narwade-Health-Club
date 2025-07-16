@@ -6,6 +6,7 @@ A modern fullstack web app for Narwade’s Health Club featuring dynamic members
 🔗 [Visit the Website](https://ashwindumane-narwade-health-club.vercel.app/)
 
 <img width="1298" height="649" alt="Screenshot 2025-07-16 233826" src="https://github.com/user-attachments/assets/bd3eef90-53c3-4dd7-a6f7-30e81bed57ae" />
+The email functionality in My Narwade’s Health Club gym website project is working perfectly — contact form submissions are successfully delivered via Gmail using Nodemailer with SMTP configuration.
 
 
 
