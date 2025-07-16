@@ -4,6 +4,8 @@ A modern fullstack web app for Narwade’s Health Club featuring dynamic members
 
 ## 🚀 Live Demo  
 🔗 [Visit the Website](https://ashwindumane-narwade-health-club.vercel.app/)
+<img width="1298" height="649" alt="image" src="https://github.com/user-attachments/assets/2e01f6df-d4e6-4727-8e6d-b54f8252f661" />
+
 
 ## 📍 Location  
 Narwade Complex, Opp. New Bus Stop,  
