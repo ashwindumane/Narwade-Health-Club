@@ -1,47 +1,52 @@
-# Narwade's Health Club - Fullstack Fitness Website
+# 🏋️ Narwade's Health Club – Fullstack Fitness Website
 
-## 🚀 Live Demo
-👉**[Experience the Live Website](https://ashwindumanenarwade-health-club-pe4mjs1ad.vercel.app/#)** 👈
+A modern fullstack web app for Narwade’s Health Club featuring dynamic membership plans, BMI calculator, gallery, and contact form.
 
-## 📍 Location & Hours
-```plaintext
-Opposite New Bus Stop
-Narwade Complex, Basmath - 4592
-Maharashtra, India
+## 🚀 Live Demo  
+🔗 [Visit the Website]()
 
-A modern fullstack website for Narwade's Health Club featuring membership plans, BMI calculator, contact forms, and gallery.
+## 📍 Location  
+Narwade Complex, Opp. New Bus Stop,  
+Basmath - 4592, Maharashtra, India
 
-## 🏋️ Features
+---
 
-- **Homepage**: Motivational hero section with call-to-action
-- **Membership Plans**: 
-  - Monthly Basic (¥700)
-  - Monthly Premium (¥900) 
-  - Half Yearly (¥4,600)
-  - Full Yearly plans
-- **BMI Calculator**: Body Mass Index calculator with gender selection
-- **Gallery**: Showcase of our fitness community
-- **Contact Form**: Name, Email, Phone, Message fields
-- **Responsive Design**: Works on all devices
+## ✨ Features
 
+- Responsive Homepage with Hero CTA  
+- Dynamic Membership Plans  
+- BMI Calculator with Gender Selection  
+- Image Gallery of Gym Members  
+- Contact Form with Email Integration  
+- Mobile-First Design
 
-## 🛠️ Technologies Used
+---
 
-**Frontend:**
-- React.js
-- Tailwind CSS (or your CSS framework)
+## ⚙️ Tech Stack
+
+### Frontend:
+- React.js  
+- Tailwind CSS  
 - React Icons
 
-**Backend:**
-- Node.js
-- Express.js
+### Backend:
+- Node.js  
+- Express.js  
 - MongoDB
 
-### Key Elements Included:
-1. **Project Title & Banner**: Eye-catching header
-2. **Features**: All key functionalities from your screenshots
-3. **Location Details**: Complete contact info from footer
-4. **Tech Stack**: Clear separation of frontend/backend tech
-5. **Installation Guide**: Step-by-step setup
-6. **Visual Gallery**: Table of screenshots (replace with your actual images)
-7. **License & Credits**: Proper attribution
+---
+
+## 📦 Environment Variables (`.env`)
+PORT=4000
+FRONTEND_URL=
+SMTP_HOST=your_host
+SMTP_PORT=your_port
+SMTP_SERVICE=your_service
+SMTP_MAIL=your_email
+SMTP_PASSWORD=your_password
+
+## 🛠️ Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/ashwindumane/Narwade-Health-Club.git
