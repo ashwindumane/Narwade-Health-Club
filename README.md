@@ -1,4 +1,4 @@
-# 🏋️ Narwade's Health Club – Fullstack Fitness Website
+# 🏋️ Narwade's Health Club – Fullstack Fitness Websit
 
 A modern fullstack web app for Narwade’s Health Club featuring dynamic membership plans, BMI calculator, gallery, and contact form.
 
